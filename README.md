@@ -85,59 +85,84 @@ Flow Development Analysis
 Turbulence Model Validation
 
 ✅ Model Performance Assessment: Accuracy vs. computational cost
+
 ✅ Near-Wall Resolution: y+ requirements and wall functions
+
 ✅ Convergence Analysis: Grid independence and numerical accuracy
+
 ✅ Sensitivity Studies: Parameter variations and robustness
+
 
 Engineering Correlations
 
 ✅ Friction Factor Correlations: Moody chart validation
+
 ✅ Heat Transfer Analogies: Reynolds-Prandtl relationships
+
 ✅ Pressure Loss Predictions: Design correlation development
+
 ✅ Flow Coefficient Derivation: Engineering design parameters
 
 📈 Expected Results & Deliverables
 Comprehensive Flow Field Data
 
 Velocity Contours: Cross-sectional and longitudinal distributions
+
 Pressure Field: Static pressure and pressure coefficient mapping
+
 Turbulence Intensity: TKE and turbulent fluctuation levels
+
 Vorticity Analysis: Secondary flow visualization and quantification
 
 Reynolds Number Scaling Studies
 
 Re-dependent Correlations: Friction factor, heat transfer coefficients
+
 Flow Transition Analysis: Laminar to turbulent transition characteristics
+
 Scaling Laws Validation: Theoretical vs. computational results
+
 Performance Curves: Engineering design charts and nomographs
 
 Model Comparison Matrix
 
 Accuracy Assessment: Comparison with experimental/DNS data
+
 Computational Efficiency: CPU time and memory requirements
+
 Convergence Characteristics: Robustness and stability analysis
+
 Recommendation Guidelines: Best practice for different applications
 
 🛠️ Computational Setup
 Domain & Mesh Strategy
 
 Computational Domain: Extended inlet/outlet for proper boundary conditions
+
 Mesh Type: Structured hexahedral mesh with boundary layer refinement
+
 Grid Resolution: Multiple mesh densities for convergence study
+
 Near-Wall Treatment: y+ < 1 for low-Re models, appropriate wall functions
 
 Boundary Conditions
 
 Inlet: Uniform velocity or developed profile with turbulence specifications
+
 Outlet: Pressure outlet or outflow with zero gradient
+
 Walls: No-slip condition with appropriate wall treatment
+
 Symmetry/Periodic: As appropriate for geometry simplification
 
 Solver Configuration
 
 Flow Type: Steady-state turbulent, incompressible
+
 Pressure-Velocity Coupling: SIMPLE, PISO, or PIMPLE algorithms
+
 Discretization Schemes: Second-order accurate spatial discretization
+
 Convergence Criteria: Strict residual and monitor convergence
 
 🔍 Validation & Verification
@@ -151,33 +176,37 @@ Numerical Scheme Comparison: Discretization sensitivity analysis
 Physical Validation
 
 Experimental Data Comparison: Literature benchmark cases
+
 Analytical Solutions: Laminar flow exact solutions where available
+
 DNS Reference Data: High-fidelity computational benchmarks
+
 Correlation Validation: Engineering correlations (Blasius, Prandtl, etc.)
 
 📚 Engineering Applications
 Industrial Relevance
 
 HVAC Systems: Ductwork design and optimization
+
 Heat Exchanger Design: Internal flow passages
+
 Pipe Flow Networks: Pressure drop calculations
+
 Microfluidics: Scaling effects at small Reynolds numbers
+
 Turbomachinery: Internal cooling passages
 
 Research Contributions
 
 Turbulence Model Assessment: Practical guidance for model selection
+
 Reynolds Number Effects: Systematic scaling study results
+
 Computational Best Practices: Mesh and solver recommendations
+
 Design Correlations: Updated engineering correlations for modern CFD
 
-🛠️ Software & Tools
 
-CFD Solver: ANSYS Fluent / OpenFOAM / STAR-CCM+
-Mesh Generation: ANSYS Meshing / blockMesh / ICEM CFD
-Post-processing: ParaView / Tecplot / MATLAB
-Data Analysis: Python (NumPy, SciPy, Matplotlib) / MATLAB
-Statistical Analysis: R / Python pandas for correlation development
 
 📖 Theoretical Background
 
