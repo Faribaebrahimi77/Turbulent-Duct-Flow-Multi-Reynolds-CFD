@@ -75,8 +75,11 @@ Hybrid RANS/LES: Scale-resolving simulation approach
 Flow Development Analysis
 
 ✅ Entrance Length Effects: Flow development from inlet
+
 ✅ Fully Developed Conditions: Achievement of statistical steady-state
+
 ✅ Reynolds Number Scaling: Re-dependent flow characteristics
+
 ✅ Aspect Ratio Effects: Rectangular vs. circular duct comparison
 
 Turbulence Model Validation
