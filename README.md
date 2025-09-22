@@ -78,5 +78,10 @@ Loss Coefficients: Engineering correlation development
 # Results and Conclusion
 
 <img width="886" height="472" alt="image" src="https://github.com/user-attachments/assets/f44374cd-64ba-40d8-82e4-c821c7cee5dc" />
+
 Near the wall, viscous stresses dominate over Reynolds stresses because the random velocity fluctuations are reduced in this region. This area is referred to as the inner layer. Moving away from the wall, the amplitude of turbulent fluctuations increases and Reynolds stresses become dominant; this region is called the outer layer. Between these two regions, there is an overlap layer, where both stresses are of comparable magnitude. Understanding these layers and the fluid behavior in each region is one of the most important aspects of flow analysis.
 
+
+<img width="886" height="472" alt="image" src="https://github.com/user-attachments/assets/bab811ea-6709-4651-83ca-4123f3a848f8" />
+
+Near the wall, viscous effects dominate. At the wall itself, the shear stress reaches its maximum value, denoted as 𝜏wall . As expected, the Reynolds stress at this point is zero (no-slip condition). Moving away from the wall, turbulent effects and momentum increase, while the influence of wall viscosity decreases. Consequently, Reynolds stresses gradually become dominant, and the viscous stress approaches zero. At the center of the channel, all shear stresses, both Reynolds and viscous, are zero, leaving only the normal stress. Overall, the channel center corresponds to the location of minimum total shear stress.
